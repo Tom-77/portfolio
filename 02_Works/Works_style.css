@@ -11,10 +11,11 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 header {
-    background-color: slategray;
+    background-color: #768392;
     display: flex;
     position: fixed;
     height: 100px;
@@ -22,7 +23,7 @@ header {
 }
 
 .title {
-        margin: 0 0 0 50px;
+    margin: 0 0 0 50px;
 }
 
 .title a {
@@ -57,15 +58,36 @@ h1 {
     margin: 100px 0 40px 50px;
 }
 
-h2{
+h2 {
     margin: 0 0 15px 50px;
 }
 
 p {
-    margin: 0 0 0 50px;
+    margin: 0 0 100px 50px;
 }
 
-.Namecard {
+img {
+    float: right;
+    margin-right: 50px;
+}
+
+.Works {
+    overflow: hidden;
+}
+
+.Works_item {
+    justify-content: flex-start;
+}
+
+.LAT {
+    display: flex;
+}
+
+/*.Namecard{
+    display: flex;
+}*/
+
+.Namecard_video {
     margin: 0 50px 0 0;
     float: right;
 }
@@ -73,16 +95,19 @@ p {
 footer {
     width: 100%;
     height: 80px;
-    position: absolute;
-    bottom: 0px;
-    background-color: slategray;
+    position: sticky;
+    top: 100vh;
+    background: slategray;
+    display: table;
 }
 
 footer p {
     color: white;
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
-    margin: 30px 0;
-    /*margin: 30px 0 30px 50px;*/
+    /*margin: 30px 0;
+    margin: 30px 0 30px 50px;*/
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
