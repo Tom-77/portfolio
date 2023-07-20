@@ -14,7 +14,7 @@
 }
 
 header {
-    background-color: slategray;
+    background-color: #768392;
     display: flex;
     position: fixed;
     height: 100px;
@@ -76,7 +76,7 @@ footer {
     height: 80px;
     position: absolute;
     bottom: 0px;
-    background-color: slategray;
+    background-color: #768392;
 }
 
 footer p {
